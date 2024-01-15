@@ -4,6 +4,8 @@
 
 function twoArrays(k, a, b) {
 
+//need to find if a version of A lines up with a version of B  such that they add up to K 
+
 
 
 
