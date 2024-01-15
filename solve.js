@@ -27,3 +27,12 @@ function twoArrays(k, a, b) {
 //
 //
 //Counting Sort Algorithim
+
+//Given an integer array
+//1) find out how many indecies it has
+//2) create an array with as many numbers there are in the range of data and set them all to zero 
+//3 loop through given array
+//4) each time a number occurs, add it to an incremetor to the corresponding indecie for the results array as it corresponds to number line (e.g. 1 would be second, 2 would be third all the way through the range)
+//5) return results array  
+//6) edge cases? 
+//7) unknown unknown 
