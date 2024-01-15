@@ -29,6 +29,9 @@ function twoArrays(k, a, b) {
 //Counting Sort Algorithim
 
 //Given an integer array
+function countingSort(arr) {
+    
+}
 //1) find out how many indecies it has
 //2) create an array with as many numbers there are in the range of data and set them all to zero 
 //3 loop through given array
