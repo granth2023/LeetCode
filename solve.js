@@ -32,6 +32,9 @@ function twoArrays(k, a, b) {
 function countingSort(arr) {
     const count = {};
 
+
+
+    return count;
 }
 //1) find out how many indecies it has -- would this be math.max? 
 //2) create an array with as many numbers there are in the range of data and set them all to zero -- does this go first? 
