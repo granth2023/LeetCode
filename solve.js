@@ -30,12 +30,14 @@ function twoArrays(k, a, b) {
 
 //Given an integer array
 function countingSort(arr) {
-    const count = new Array(arr.length).fill(0);
-    count = 
-    
-
-
-
+    //get the max value so we know limit of our range, store it. 
+    let maxVal = Math.max(...arr);
+    //use new array method passing the length of arr and use fill to set count to zero
+    let count = new Array(maxVal + 1).fill(0);
+    //loop through arr and each time we get to a value we add it to count
+    for(let i =0; i<arr.length; i++){
+        count[arr[i]]++;
+    }
     return count;
 }
 //1) find out how many indecies it has -- would this be math.max? would this be stroed in a variable? would we just add it to count? how to create spaces in an array? 
