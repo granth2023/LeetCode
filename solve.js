@@ -21,3 +21,9 @@ function twoArrays(k, a, b) {
 //need to loop through both versions of the arrays because just because they match at an iindex that could throw the whole thing off. so we need a way to get all the variations of the a loop and then send the b loop through that. 
 //sorting them both gives us the best chance to see if the numbers compliment one another 
 
+//
+//
+//
+//
+//
+//Counting Sort Algorithim
