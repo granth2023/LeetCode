@@ -4,12 +4,13 @@
 
 
 function twoArrays(k, a, b) {
-    //make one lowest to highest, make one highest to lowest 
+    // how do we find complmeents of addition? is it low to high? high to low? sort?
     a.sort((a,b) => a-b);
     b.sort((a,b) => b-a);
 
-//add each element at corresponding position and if less than K return no 
+//how do we see if the corresponding array values add up to K or less? 
     for (let i = 0; i < a.length; i++) {
+        //what do we return? 
         if (a[i] + b[i] < k){
             return 'no'
         } 
