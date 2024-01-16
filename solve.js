@@ -35,10 +35,12 @@ function countingSort(arr) {
     let maxVal = Math.max(...arr);
     //how do we create an array for as many values as the range and fill with zero? 
     let count = new Array(maxVal + 1).fill(0);
-    // how d
+    // how do we do go through all the values and increment the count? 
     for(let i =0; i<arr.length; i++){
+        //what is an incrementor funciton?
         count[arr[i]]++;
     }
+    //how do we get the count?
     return count;
 }
 //1) find out how many indecies it has -- would this be math.max? would this be stroed in a variable? would we just add it to count? how to create spaces in an array? 
