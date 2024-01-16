@@ -2,12 +2,13 @@
 //return a string of yes or no 
 //function accepts following parameters: Integer K, Integer Array A, Integer array B 
 
+
 function twoArrays(k, a, b) {
-    //sort method for each array 
+    //make one lowest to highest, make one highest to lowest 
     a.sort((a,b) => a-b);
     b.sort((a,b) => b-a);
 
-//loop through a and see if the each array indexes add up to less than K 
+//add each element at corresponding position and if less than K return no 
     for (let i = 0; i < a.length; i++) {
         if (a[i] + b[i] < k){
             return 'no'
@@ -30,11 +31,11 @@ function twoArrays(k, a, b) {
 
 //Given an integer array
 function countingSort(arr) {
-    //get the max value so we know limit of our range, store it. 
+  //what's the range of values in the integer array? 
     let maxVal = Math.max(...arr);
-    //use new array method passing the length of arr and use fill to set count to zero
+    //how do we create an array for as many values as the range and fill with zero? 
     let count = new Array(maxVal + 1).fill(0);
-    //loop through arr and each time we get to a value we add it to count
+    // how d
     for(let i =0; i<arr.length; i++){
         count[arr[i]]++;
     }
